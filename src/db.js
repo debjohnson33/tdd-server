@@ -16,3 +16,5 @@ export const getUserByUsername = async username => {
   client.close();
   return result;
 }
+
+export default { getUserByUsername };
